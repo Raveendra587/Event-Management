@@ -94,4 +94,4 @@ This project requires deploying the backend API and the frontend application sep
 
 ---
 
-*Developed by [Mannam Raveendra Babu]*
+*Developed by Mannam Raveendra Babu*
