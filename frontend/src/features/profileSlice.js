@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/profiles';
+const API_URL = 'https://event-management-1l44.onrender.com/api/profiles';
 
 export const fetchProfiles = createAsyncThunk('profiles/fetchProfiles', async () => {
   const response = await axios.get(API_URL);
