@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { IANA_TIMEZONES } from '../components/utils/timezoneHelper';
 
-const API_URL = 'https://event-management-1l44.onrender.com/api/events';
+const API_URL = 'https://event-management-2e2h.onrender.com/api/events';
 
 export const fetchEvents = createAsyncThunk('events/fetchEvents', async (profileId) => {
   if (!profileId) return [];
